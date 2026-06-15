@@ -2,6 +2,11 @@
 
 Proyecto: framework de testing en Python que incluye pruebas UI (Selenium) y API (requests), organizado con Page Object Model y pytest.
 
+Propósito del Proyecto
+
+Este proyecto tiene como objetivo automatizar pruebas funcionales sobre una aplicación web de práctica utilizando herramientas de testing automatizado.
+El propósito es aplicar buenas prácticas de automatización y garantizar el correcto funcionamiento de la aplicación.
+
 Requisitos
 - Python 3.8+
 - Instalar dependencias listadas en `requirements.txt`
@@ -65,6 +70,5 @@ Reportes y artefactos
 - Capturas: `reports/screenshots/` (guardadas cuando un test UI falla)
 - Logs: `reports/logs/execution.log`
 
-Notas sobre APIs
-- Las pruebas de API usan por defecto JSONPlaceholder (no requiere API key).
-- Si prefieres usar ReqRes con clave, ajusta `APIClient` en `src/utils/api_client.py` y agrega el header `x-api-key`.
+Nota sobre APIs
+Las pruebas de API usan por defecto JSONPlaceholder (no requiere API key).
